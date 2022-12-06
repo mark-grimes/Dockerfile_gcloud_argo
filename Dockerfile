@@ -1,7 +1,7 @@
 FROM google/cloud-sdk:alpine
 
-ARG KUBECTL_VERSION="v1.21.0"
-ARG ARGO_VERSION="v2.12.11"
+ARG KUBECTL_VERSION="v1.25.4"
+ARG ARGO_VERSION="v3.4.4"
 ARG ARCH="arm64"  # Can be "amd64" of "arm64"
 
 RUN apk add --no-cache curl
